@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <input type="file" id="f01" onchange="checkFiles(this.files)"> -->
+    <input type="file" id="f01" multiple onchange="checkFiles(this.files)">
+    <script>
+    //var sFile = f01.files[0];
+    
+    function checkFiles(fileList) {
+        console.log(fileList[0]);
+    }
+    
+    </script>
+</body>
+</html>

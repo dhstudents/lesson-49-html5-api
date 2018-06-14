@@ -1,0 +1,10 @@
+https://www.w3schools.com/html/html5_geolocation.asp
+
+find lat lng in google maps
+https://www.tiuli.com/pages/29/%D7%9E%D7%A6%D7%99%D7%90%D7%AA-%D7%A0%D7%A6-%D7%91%D7%9E%D7%A4%D7%AA-%D7%92%D7%95%D7%92%D7%9C
+
+
+https://developer.mozilla.org/en-US/docs/tag/Guide
+
+
+http://dsheiko.com/weblog/html5-and-server-sent-events

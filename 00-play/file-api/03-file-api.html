@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>File(s) style</title>
+<script>
+</script>
+</head>
+
+
+<body>
+  <input type="file" id="fileElem" multiple accept="image/*" style="display:none" onchange="handleFiles(this.files)">
+  <button id="fileSelect">Select some files</button>
+  <hr>
+  <input type="file" id="fileElem" multiple accept="image/*" style="display:none" onchange="handleFiles(this.files)">
+<label for="fileElem">Select some files</label>
+<hr>
+<div id="filesDiv">
+
+</div>
+<script>
+var fileSelect = document.getElementById("fileSelect"),
+  fileElem = document.getElementById("fileElem");
+
+fileSelect.addEventListener("click", function (e) {
+  if (fileElem) {
+    fileElem.click();
+  }
+}, false);
+
+function handleFiles(files) {
+  console.log(files);
+  var text = "";
+  for (var i = 0 ; i < files.length ; i++) {
+    filesDiv.innerHTML += files[i].name + " : " + files[i].size + "<br>";
+  }
+}
+</script>
+
+</body>
+</html>
